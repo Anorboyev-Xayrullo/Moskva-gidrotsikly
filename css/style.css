@@ -1,20 +1,265 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Sofia+Sans+Semi+Condensed:wght@700&family=Tinos&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
+ul,
+li {
+    list-style: none;
+}
 
-.card{
+
+.navbar1 {
+    margin-top: 20px;
+}
+
+.navbar_list {
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar_list li {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.moto {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #2F3035;
+}
+
+.fa-gauge-high {
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.dot {
+    display: flex;
+    margin-top: 40px;
+}
+
+.circle {
+    margin-top: 50px;
+}
+
+.fa-location-dot {
+    font-size: 22px;
+}
+
+.dot p {
+    padding-top: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F3035;
+}
+
+.fa-heart {
+    font-size: 25px;
+}
+
+.fa-cart-shopping {
+    font-size: 25px;
+}
+
+.fa-user {
+    font-size: 25px;
+}
+
+
+
+/* ------------------------- Navbar end --------------------- */
+
+
+.header_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_list li {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #2F3035;
+    margin-top: 15px;
     padding: 10px 20px;
 }
 
-.card img{
-    margin-left: 200px;
-    width: 50%;
+
+.header_list li span {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #2F3035;
 }
+
+.header {
+    margin-top: 50px;
+    background-color: #F0F0F4;
+}
+
+
+/* --------------- Header end -------------------- */
+
+
+.section_one {
+    margin-top: 50px;
+}
+
+.card div button {
+    padding: 5px 50px;
+    background-color: #1C62CD;
+    border: none;
+    font-family: 'Proxima Nova';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card div {
+    display: flex;
+}
+
+.card div p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #1C62CD;
+    margin-left: 150px;
+}
+
+.card span {
+    margin-top: 10px;
+    margin-left: 330px;
+    border: 0.5px solid #C4C4C4;
+    transform: rotate(-5.33deg);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+}
+
+.card img {
+    margin-left: 50px;
+    width: 40%;
+}
+
+.card h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.card h3 {
+    margin-top: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.card h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    color: #1C62CD;
+}
+
+/* ------------- section_one end -------------------- */
+
+
+
+.same_list {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.same_list li {
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F3035;
+}
+
+.same_list li span {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F3035;
+    padding: 5px 10px;
+    background: #F0F0F4;
+    border-radius: 5px;
+}
+
+.input_text button {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1C62CD;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+}
+.input_text{
+    padding-top: 50px;
+}
+
+
 
 
 
@@ -22,8 +267,40 @@
 
 
 @media (max-width:575px) {
+    .drive {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
 
-    .card img{
-        margin-left: 150px;
+    .drive p {
+        margin-top: 10px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #2F3035;
+    }
+
+    .icon {
+        margin-left: 50px;
+    }
+
+    .header_main {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-left: 30px;
+    }
+
+    .header_main li {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #2F3035;
     }
 }
