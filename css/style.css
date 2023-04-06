@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card{
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+
+.card img{
+    margin-left: 200px;
+    width: 50%;
+}
+
+
+
+
+
+
+@media (max-width:575px) {
+
+    .card img{
+        margin-left: 150px;
+    }
+}
