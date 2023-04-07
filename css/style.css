@@ -120,7 +120,6 @@ li {
 
 .header {
     margin-top: 50px;
-    background-color: #F0F0F4;
 }
 
 
@@ -171,8 +170,8 @@ li {
 }
 
 .card img {
-    margin-left: 50px;
-    width: 40%;
+    margin-left: 100px;
+    width: 30%;
 }
 
 .card h2 {
@@ -213,6 +212,7 @@ li {
 
 
 .same_list {
+    margin-top: 100px;
     display: flex;
     align-items: center;
     gap: 80px;
@@ -255,10 +255,286 @@ li {
     padding: 5px 10px;
     border: none;
 }
-.input_text{
+
+.input_text {
     padding-top: 50px;
 }
 
+.cards {
+    padding: 5px 10px;
+    background: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.cards img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+.cards h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #2F3035;
+}
+
+
+.cards p {
+    margin-left: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    color: #C4C4C4;
+}
+
+.cards span {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #1C62CD;
+}
+
+.section_four {
+    margin-top: 100px;
+}
+
+.tovar {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2F3035;
+}
+
+
+
+.four_list {
+    display: flex;
+    gap: 100px;
+}
+
+.four_list li {
+    margin-top: 30px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F3035;
+}
+
+
+.triangle {
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+}
+
+.triangle i {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.triangle i:hover {
+    color: red;
+}
+
+.triangle h2 {
+    margin-top: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+}
+
+
+.triangle h3 {
+    margin-top: 20px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.triangle img {
+    margin-left: 50px;
+}
+
+.triangle button {
+    margin-top: 30px;
+    background: #1C62CD;
+    border: none;
+    padding: 5px 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+}
+
+.triangle h4 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C62CD;
+}
+
+.triangle div {
+    display: flex;
+}
+
+.section_five {
+    margin-top: 100px;
+}
+
+.phone {
+    background: #1C62CD;
+}
+
+.notes img {
+    width: 30%;
+}
+
+.skidki {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.phone {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.prosmotor {
+    padding: 5px 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: right;
+    color: #2F3035;
+    background: #FFFFFF;
+    border: none;
+}
+
+.eto {
+    padding-top: 30px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2F3035;
+}
+
+.five_main {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.five_main li {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.doctor button {
+    padding: 2px 6px;
+    border: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background: #1C62CD;
+}
+
+
+
+.doctor {
+    padding: 10px 30px;
+    border: 2px solid #2F3035;
+    margin-top: 20px;
+}
+
+.doctor h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F3035;
+    margin-top: 10px;
+}
+.doctor i:hover{
+    color: #1C62CD;
+}
+
+.doctor h3 {
+    margin-top: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3035;
+}
+
+.doctor p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C62CD;
+    text-align: center;
+}
+
+.doctor div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -302,5 +578,43 @@ li {
         line-height: 24px;
         text-align: center;
         color: #2F3035;
+    }
+
+    .cards img {
+        margin-left: 170px;
+    }
+
+    .header {
+        margin-top: 30px;
+        background-color: 0;
+    }
+
+    .card div button {
+        padding: 15px 5px;
+        margin-top: 20px;
+    }
+
+    .card div p {
+        margin-top: 20px;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .skidki {
+        color: #2F3035;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .prosmotor {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .notes img {
+        margin-left: 50px;
     }
 }

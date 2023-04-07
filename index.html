@@ -48,20 +48,42 @@
             </div>
         </div>
     </nav>
-    <nav class="d-block d-sm-none">
-        <div class="container">
-            <div class="row">
-                <div class="drive">
-                    <p>DRIVE MOTO</p>
-                    <div class="icon">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-user"></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </div>
-            </div>
+    <nav class=" d-block d-sm-none navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <header class="header d-none d-sm-block">
         <div class="container">
@@ -81,19 +103,6 @@
             </div>
         </div>
     </header>
-
-    <header class="header d-block d-sm-none">
-        <div class="container">
-            <div class="row">
-                <ul class="header_main">
-                    <li>Магазины</li>
-                    <li>Акции</li>
-                    <li>Лодки</li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
 
     <section class="section_one d-none d-sm-block">
         <div class="container">
@@ -133,14 +142,14 @@
                 </div>
                 <div class="col-12 col-sm-4">
                     <div class="card">
-                       <div>
-                        <button>акция</button>
-                        <p>190 000  P</p>
-                    </div>
-                    <span>  225 000 P</span>
-                    <img src="./img/438d21d0914ff349e903072c903b7b8a 1.png" alt="">
-                    <h2>Лодочный мотор 
-                        Suzuki DF9.9BRS</h2>
+                        <div>
+                            <button>акция</button>
+                            <p>190 000 ₽</p>
+                        </div>
+                        <span> 225 000 ₽</span>
+                        <img src="./img/438d21d0914ff349e903072c903b7b8a 1.png" alt="">
+                        <h2>Лодочный мотор
+                            Suzuki DF9.9BRS</h2>
                         <h3>Акция действует до</h3>
                         <h4>31.08.2020</h4>
                     </div>
@@ -148,7 +157,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="section_one d-block d-sm-none">
         <div class="container">
             <div class="row">
@@ -185,43 +194,328 @@
                         </button>
                     </div>
                 </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card">
+                        <div>
+                            <button>акция</button>
+                            <p>190 000 ₽</p>
+                        </div>
+                        <img src="./img/438d21d0914ff349e903072c903b7b8a 1.png" alt="">
+                        <h2>Лодочный мотор
+                            Suzuki DF9.9BRS</h2>
+                        <h3>Акция действует до</h3>
+                        <h4>31.08.2020</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="d-none d-sm-block">
+    <section class="section_two d-none d-sm-block">
         <div class="container">
             <div class="row">
                 <div class="same">
                     <ul class="same_list">
-                        <li>Поиск по  номеру</li>
+                        <li>Поиск по номеру</li>
                         <li><span>Поиск по марке</span></li>
                         <li>Поиск по названию товара</li>
                     </ul>
                 </div>
                 <div class="input_text">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Введите марку " aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Введите марку "
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <span class="input-group-text" id="basic-addon2"><button>искать</button></span>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section class="d-block d-sm-none">
         <div class="container">
             <div class="row">
-                
                 <div class="input_text">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Введите марку " aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Введите марку "
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <span class="input-group-text" id="basic-addon2"><button>искать</button></span>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+   <section class="section_three">
+    <div class="container">
+        <div class="row">
+           <div class="col-12 col-sm-4">
+            <div class="cards">
+                <h2>Квадроциклы</h2>
+                <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                <p>Подробее</p>
+            </div>
+           </div>
+           <div class="col-12 col-sm-4">
+            <div class="cards">
+                <h2><span>Квадроциклы</span></h2>
+                <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                <p>Подробее</p>
+            </div>
+           </div>
+           <div class="col-12 col-sm-4">
+            <div class="cards">
+                <h2>Квадроциклы</h2>
+                <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                <p>Подробее</p>
+            </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+             <div class="cards">
+                 <h2>Квадроциклы</h2>
+                 <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                 <p>Подробее</p>
+             </div>
+            </div>
+            <div class="col-12 col-sm-4">
+             <div class="cards">
+                 <h2>Квадроциклы</h2>
+                 <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                 <p>Подробее</p>
+             </div>
+            </div>
+            <div class="col-12 col-sm-4">
+             <div class="cards">
+                 <h2>Квадроциклы</h2>
+                 <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                 <p>Подробее</p>
+             </div>
+            </div>
+         </div>
+    </div>
+   </section>
+
+
+   <section class="section_four d-none d-sm-block">
+    <div class="container">
+        <div class="row">
+            <h2 class="tovar">Популярные товары</h2>
+            <ul class="four_list">
+                <li>запчасти</li>
+                <li>моторы</li>
+                <li>шины </li>
+                <li>электроника</li>
+                <li>инструменты</li>
+                <li>аксессуары </li>
+            </ul>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/cq5dam.web.768 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/55a4f760715a1 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/s-l225 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/s-l1600 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="section_four d-block d-sm-none">
+    <div class="container">
+        <div class="row">
+            <h2 class="tovar">Популярные товары</h2>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/cq5dam.web.768 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/55a4f760715a1 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/s-l225 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="triangle">
+                  <div>
+                    <button>SALE</button>
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                <img src="./img/s-l1600 1.png" alt="">
+                <h2>BRP Audio-Premium System</h2>
+                    <h3> 68 000 ₽</h3>
+            </div>
+            </div>
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="section_five d-none d-sm-block">
+    <div class="container">
+        <div class="row">
+       <div class="phone">
+        <div class="col-5">
+            <div class="notes">
+                <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                <img src="./img/2018-Maverick-X3-X-rc-TURBO-R-Carbon-Black-and-Octane-Blue_3-4-front4072 2.png" alt="">
+            </div>
+        </div>
+        <div class="col-3">
+            <h2 class="skidki">CКИДКИ 
+                на все запчасти 
+                до 70%</h2>
+        </div>
+        <div class="col-4">
+            <button class="prosmotor">ПОСМОТЕТЬ ВСЕ</button>
+        </div>
+       </div>
+       <h2 class="eto">С этим товаром покупают</h2>
+       <ul class="five_main">
+        <li>запчасти</li>
+        <li>моторы</li>
+        <li>шины </li>
+        <li>шины </li>
+        <li>инструменты</li>
+        <li>аксессуары </li>
+       </ul>
+        </div>
+    </div>
+   </section>
+   <section class="section_five d-block d-sm-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-5">
+            <div class="notes">
+                <img src="./img/CFMOTO-X6-EPS_blue 1.png" alt="">
+                <img src="./img/2018-Maverick-X3-X-rc-TURBO-R-Carbon-Black-and-Octane-Blue_3-4-front4072 2.png" alt="">
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+            <h2 class="skidki">CКИДКИ 
+                на все запчасти 
+                до 70%</h2>
+        </div>
+        <div class="col-12 col-sm-4">
+            <button class="prosmotor">ПОСМОТЕТЬ ВСЕ</button>
+        </div>
+        </div>
+    </div>
+   </section>
+   <section class="section_six">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <div class="doctor">
+                   <div>
+                    <button>sale</button>
+                    <i class="fa-regular fa-heart"></i>
+                   </div>
+                    <img src="./img/1813210658_w640_h640_brp-audio-portativnaya-sistema-295100797 1.png" alt="" class="magnitafon">
+                    <h2>BRP Audio-портативная система</h2>
+                    <h3>нет в наличии</h3>
+                    <p>Сообщить о поступлении</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="doctor">
+                   <div>
+                    <button>sale</button>
+                    <i class="fa-regular fa-heart"></i>
+                   </div>
+                    <img src="./img/2178888 1.png" alt="" class="magnitafon">
+                    <h2>BRP Audio-портативная система</h2>
+                    <h3>нет в наличии</h3>
+                    <p>Сообщить о поступлении</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="doctor">
+                   <div>
+                    <button>sale</button>
+                    <i class="fa-regular fa-heart"></i>
+                   </div>
+                    <img src="./img/2178888 1.png" alt="" class="magnitafon">
+                    <h2>BRP Audio-портативная система</h2>
+                    <h3>нет в наличии</h3>
+                    <p>Сообщить о поступлении</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                <div class="doctor">
+                   <div>
+                    <button>sale</button>
+                    <i class="fa-regular fa-heart"></i>
+                   </div>
+                    <img src="./img/cq5dam.web.768 2.png" alt="" class="magnitafon">
+                    <h2>BRP Audio-портативная система</h2>
+                    <h3>нет в наличии</h3>
+                    <p>Сообщить о поступлении</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
 
 
 
