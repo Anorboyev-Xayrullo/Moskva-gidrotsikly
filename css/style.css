@@ -505,7 +505,8 @@ li {
     color: #2F3035;
     margin-top: 10px;
 }
-.doctor i:hover{
+
+.doctor i:hover {
     color: #1C62CD;
 }
 
@@ -537,9 +538,78 @@ li {
 }
 
 
+/*  ---------------------   Footer start  ----------------- */
 
 
+footer {
+    margin-top: 100px;
+}
 
+
+.laptop h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 17px;
+    color: #2F3035;
+}
+.laptop div{
+    margin-top: 50px;
+}
+
+.laptop button {
+    padding: 10px 20px;
+    border: none;
+}
+
+.email {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    background: #FFFFFF;
+}
+
+
+.sms {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1C62CD;
+}
+
+
+.informasiya {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    color: #2F3035;
+}
+
+.mish{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.fa-w{
+    margin-left: 20px;
+}
+.fa-facebook{
+    margin-left: 20px;
+}
+.fa-youtube{
+    margin-left: 20px;
+}
 
 
 @media (max-width:575px) {
@@ -616,5 +686,31 @@ li {
 
     .notes img {
         margin-left: 50px;
+    }
+    .informasiya{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .laptop h2{
+        font-size: 16px;
+        text-align: center;
+    }
+    .laptop div {
+        display: grid;
+    }
+    .mish{
+        text-align: center;
+    }
+    .fa-w{
+        padding-top: 20px;
+    }
+    .fa-facebook{
+        padding-top: 20px;
+    }
+    .fa-youtube{
+        padding-top: 20px;
+    }
+    .fa-instagram{
+        padding-top: 20px;
     }
 }
